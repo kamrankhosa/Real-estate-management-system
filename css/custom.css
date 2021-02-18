@@ -1,0 +1,65 @@
+/* change brand name font */
+.navbar-brand{
+	font-family: "Ubuntu", sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+/* change navigation/menu color */
+.navbar #mymenu .custom-nav .nav-item a{
+	color: white;
+	
+
+
+}
+.navbar #mymenu .custom-nav .nav-item a:hover{
+	background-color:#2c3c5c;
+	color:#fcf803;
+}
+ 
+/* MAKE HEADER IMAGE RESPONSIVE */
+.back-image{
+	background-size:cover;
+	min-height: 90vh;
+	background-position:top center;
+	background-repeat:no-repeat;
+	border-radius:0px;
+	margin-top:45px;
+}
+/* header image sub title font size */
+.farzi-class{
+	font-size:26px;
+}
+/* MARGIN FOR WELLCOME TO ESMS */
+.mainheading{
+	margin-top:160px;
+
+}
+/* media query */
+@media only screen and (max-width:600px) {
+.myclass{
+	margin-top: 350px;
+	text-align: center;
+}
+}
+.fi-color{
+	color:white;
+
+
+}
+.fi-color:hover{
+	color:red;
+
+}
+a{
+	color:black;
+}
+a.active{
+	color:white;
+	background-color:#2c3c5c;
+}
+a:hover{
+	color:blue;
+}
+
+
